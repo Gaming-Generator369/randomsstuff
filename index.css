@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+.greet{
+    color: yellow;
+    text-align: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 3vw;
+    border: none;
+}
+
+.excuses{
+    background-color: cyan;
+    padding: 1em 2em;
+    border-radius: 10em;
+    border: none;
+}
+.decide{
+    background-color: red;
+    padding: 1em 2em;
+    border-radius: 10em;
+    border: none;
+    
+}
+.tod{
+    background-color: greenyellow;
+    padding: 1em 2em;
+    border-radius: 10em;
+    border: none;
+}
+
+.excuses:hover{
+    box-shadow: 0px 0px 30px cyan;
+    transform: translateY(-5px);
+    transition: ease 0.5s;
+}
+.decide:hover{
+    box-shadow: 0px 0px 30px red;
+    transform: translateY(-5px);
+    transition: ease 0.5s;
+}
+.tod:hover{
+    box-shadow: 0px 0px 30px greenyellow;
+    transform: translateY(-20%);
+    transition: ease 0.5s;
+}
